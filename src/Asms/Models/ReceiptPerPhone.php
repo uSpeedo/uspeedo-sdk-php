@@ -44,6 +44,26 @@ class ReceiptPerPhone extends Response
     }
     
     /**
+     * BrevityCode: 
+     *
+     * @return string|null
+     */
+    public function getBrevityCode()
+    {
+        return $this->get("BrevityCode");
+    }
+
+    /**
+     * BrevityCode: 
+     *
+     * @param string $brevityCode
+     */
+    public function setBrevityCode(string $brevityCode)
+    {
+        $this->set("BrevityCode", $brevityCode);
+    }
+    
+    /**
      * CostCount: 
      *
      * @return int|null
@@ -61,6 +81,26 @@ class ReceiptPerPhone extends Response
     public function setCostCount(int $costCount)
     {
         $this->set("CostCount", $costCount);
+    }
+    
+    /**
+     * CountryCode: 
+     *
+     * @return string|null
+     */
+    public function getCountryCode()
+    {
+        return $this->get("CountryCode");
+    }
+
+    /**
+     * CountryCode: 
+     *
+     * @param string $countryCode
+     */
+    public function setCountryCode(string $countryCode)
+    {
+        $this->set("CountryCode", $countryCode);
     }
     
     /**
