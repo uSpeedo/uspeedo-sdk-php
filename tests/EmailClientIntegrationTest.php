@@ -64,6 +64,9 @@ class EmailClientIntegrationTest extends TestCase
         if ($publicKey === false || $publicKey === "" || $privateKey === false || $privateKey === "") {
             $this->markTestSkipped("Skip: USPEEDO_PUBLIC_KEY or USPEEDO_PRIVATE_KEY not set");
         }
+        if ($publicKey === "foo" && $privateKey === "bar") {
+            $this->markTestSkipped("Skip: placeholder credentials (foo/bar) used in CI");
+        }
 
         $client = new EmailClient([
             "publicKey" => $publicKey,
