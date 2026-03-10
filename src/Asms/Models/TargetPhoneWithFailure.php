@@ -24,7 +24,7 @@ class TargetPhoneWithFailure extends Response
 {
 
     /**
-     * Invalid: 
+     * Invalid:
      *
      * @return boolean|null
      */
@@ -34,7 +34,7 @@ class TargetPhoneWithFailure extends Response
     }
 
     /**
-     * Invalid: 
+     * Invalid:
      *
      * @param boolean $invalid
      */
@@ -44,7 +44,7 @@ class TargetPhoneWithFailure extends Response
     }
     
     /**
-     * Phone: 
+     * Phone:
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class TargetPhoneWithFailure extends Response
     }
 
     /**
-     * Phone: 
+     * Phone:
      *
      * @param string $phone
      */
@@ -64,7 +64,7 @@ class TargetPhoneWithFailure extends Response
     }
     
     /**
-     * TemplateParams: 
+     * TemplateParams:
      *
      * @return string[]|null
      */
@@ -74,7 +74,7 @@ class TargetPhoneWithFailure extends Response
     }
 
     /**
-     * TemplateParams: 
+     * TemplateParams:
      *
      * @param string[] $templateParams
      */
@@ -84,7 +84,7 @@ class TargetPhoneWithFailure extends Response
     }
     
     /**
-     * UserId: 
+     * UserId:
      *
      * @return string|null
      */
@@ -94,7 +94,7 @@ class TargetPhoneWithFailure extends Response
     }
 
     /**
-     * UserId: 
+     * UserId:
      *
      * @param string $userId
      */
@@ -104,7 +104,7 @@ class TargetPhoneWithFailure extends Response
     }
     
     /**
-     * ExtendCode: 
+     * ExtendCode:
      *
      * @return string|null
      */
@@ -114,7 +114,7 @@ class TargetPhoneWithFailure extends Response
     }
 
     /**
-     * ExtendCode: 
+     * ExtendCode:
      *
      * @param string $extendCode
      */
@@ -124,7 +124,7 @@ class TargetPhoneWithFailure extends Response
     }
     
     /**
-     * FailureDetails: 
+     * FailureDetails:
      *
      * @return string|null
      */
@@ -134,7 +134,7 @@ class TargetPhoneWithFailure extends Response
     }
 
     /**
-     * FailureDetails: 
+     * FailureDetails:
      *
      * @param string $failureDetails
      */
@@ -142,11 +142,4 @@ class TargetPhoneWithFailure extends Response
     {
         $this->set("FailureDetails", $failureDetails);
     }
-    
 }
-
-
-
-
-
-

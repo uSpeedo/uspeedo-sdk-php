@@ -29,7 +29,7 @@ class EmailClient extends Client
 {
         
     /**
-     * SendEmailTemplate - 
+     * SendEmailTemplate -
      *
      * @throws USpeedoException
      */

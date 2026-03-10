@@ -45,9 +45,9 @@ class SendEmailTemplateRes extends Response
     }
     
     /**
-     * SuccessCount: 
+     * SuccessCount:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getSuccessCount()
     {
@@ -55,7 +55,7 @@ class SendEmailTemplateRes extends Response
     }
 
     /**
-     * SuccessCount: 
+     * SuccessCount:
      *
      * @param int $successCount
      */
@@ -65,7 +65,7 @@ class SendEmailTemplateRes extends Response
     }
     
     /**
-     * FailContent: 
+     * FailContent:
      *
      * @return FailedTargetEmail[]|null
      */
@@ -83,7 +83,7 @@ class SendEmailTemplateRes extends Response
     }
 
     /**
-     * FailContent: 
+     * FailContent:
      *
      * @param FailedTargetEmail[] $failContent
      */
@@ -95,11 +95,4 @@ class SendEmailTemplateRes extends Response
         }
         $this->set("FailContent", $result);
     }
-    
 }
-
-
-
-
-
-

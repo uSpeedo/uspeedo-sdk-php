@@ -24,7 +24,7 @@ class SendWhatsappMessageRes extends Response
 {
 
     /**
-     * MessageId: 
+     * MessageId:
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class SendWhatsappMessageRes extends Response
     }
 
     /**
-     * MessageId: 
+     * MessageId:
      *
      * @param string $messageId
      */
@@ -42,11 +42,4 @@ class SendWhatsappMessageRes extends Response
     {
         $this->set("MessageId", $messageId);
     }
-    
 }
-
-
-
-
-
-

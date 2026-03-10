@@ -42,11 +42,4 @@ class SendMessageResponse extends Response
     {
         $this->set("SessionNo", $sessionNo);
     }
-    
 }
-
-
-
-
-
-

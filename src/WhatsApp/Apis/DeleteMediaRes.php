@@ -24,9 +24,3 @@ class DeleteMediaRes extends Response
 {
 
 }
-
-
-
-
-
-

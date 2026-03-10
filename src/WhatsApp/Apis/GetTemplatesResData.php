@@ -33,7 +33,7 @@ class GetTemplatesResData extends Response
 {
 
     /**
-     * Data: 
+     * Data:
      *
      * @return GetTemplatesRes|null
      */
@@ -43,7 +43,7 @@ class GetTemplatesResData extends Response
     }
 
     /**
-     * Data: 
+     * Data:
      *
      * @param GetTemplatesRes $data
      */
@@ -51,11 +51,4 @@ class GetTemplatesResData extends Response
     {
         $this->set("Data", $data->getAll());
     }
-    
 }
-
-
-
-
-
-

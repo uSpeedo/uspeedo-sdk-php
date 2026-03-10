@@ -29,7 +29,7 @@ class VMSClient extends Client
 {
         
     /**
-     * SendVMSMessage - 
+     * SendVMSMessage -
      *
      * @throws USpeedoException
      */

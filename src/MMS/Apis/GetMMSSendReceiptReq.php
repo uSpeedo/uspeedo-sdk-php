@@ -32,7 +32,7 @@ class GetMMSSendReceiptReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/mms/api/
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -50,7 +50,7 @@ class GetMMSSendReceiptReq extends Request
     }
     
     /**
-     * SessionNoSet: 
+     * SessionNoSet:
      *
      * @return string[]|null
      */
@@ -60,7 +60,7 @@ class GetMMSSendReceiptReq extends Request
     }
 
     /**
-     * SessionNoSet: 
+     * SessionNoSet:
      *
      * @param string[] $sessionNoSet
      */
@@ -68,11 +68,4 @@ class GetMMSSendReceiptReq extends Request
     {
         $this->set("SessionNoSet", $sessionNoSet);
     }
-    
 }
-
-
-
-
-
-

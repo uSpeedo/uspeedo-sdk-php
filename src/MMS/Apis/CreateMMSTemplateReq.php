@@ -96,7 +96,7 @@ class CreateMMSTemplateReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/mms/api/
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -152,11 +152,4 @@ class CreateMMSTemplateReq extends Request
     {
         $this->set("Subject", $subject);
     }
-    
 }
-
-
-
-
-
-

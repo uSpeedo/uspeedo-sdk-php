@@ -26,12 +26,4 @@ class GetAccountPhoneListRequest extends Request
     {
         parent::__construct(["Action" => "GetAccountPhoneList"]);
     }
-
-
 }
-
-
-
-
-
-

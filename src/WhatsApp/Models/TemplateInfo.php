@@ -24,7 +24,7 @@ class TemplateInfo extends Response
 {
 
     /**
-     * Category: 
+     * Category:
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * Category: 
+     * Category:
      *
      * @param string $category
      */
@@ -44,7 +44,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * ID: 
+     * ID:
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * ID: 
+     * ID:
      *
      * @param string $id
      */
@@ -64,7 +64,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * QualityScore: 
+     * QualityScore:
      *
      * @return TemplateQualityScore|null
      */
@@ -74,7 +74,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * QualityScore: 
+     * QualityScore:
      *
      * @param TemplateQualityScore $qualityScore
      */
@@ -84,7 +84,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * Status: 
+     * Status:
      *
      * @return string|null
      */
@@ -94,7 +94,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * Status: 
+     * Status:
      *
      * @param string $status
      */
@@ -104,7 +104,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * Tags: 
+     * Tags:
      *
      * @return string[]|null
      */
@@ -114,7 +114,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * Tags: 
+     * Tags:
      *
      * @param string[] $tags
      */
@@ -124,7 +124,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * Attributes: 
+     * Attributes:
      *
      * @return TemplateAttribute[]|null
      */
@@ -142,7 +142,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * Attributes: 
+     * Attributes:
      *
      * @param TemplateAttribute[] $attributes
      */
@@ -156,7 +156,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * Components: 
+     * Components:
      *
      * @return TemplateComponent[]|null
      */
@@ -174,7 +174,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * Components: 
+     * Components:
      *
      * @param TemplateComponent[] $components
      */
@@ -188,7 +188,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * Language: 
+     * Language:
      *
      * @return string|null
      */
@@ -198,7 +198,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * Language: 
+     * Language:
      *
      * @param string $language
      */
@@ -208,7 +208,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * Name: 
+     * Name:
      *
      * @return string|null
      */
@@ -218,7 +218,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * Name: 
+     * Name:
      *
      * @param string $name
      */
@@ -228,7 +228,7 @@ class TemplateInfo extends Response
     }
     
     /**
-     * RejectedReason: 
+     * RejectedReason:
      *
      * @return string|null
      */
@@ -238,7 +238,7 @@ class TemplateInfo extends Response
     }
 
     /**
-     * RejectedReason: 
+     * RejectedReason:
      *
      * @param string $rejectedReason
      */
@@ -246,11 +246,4 @@ class TemplateInfo extends Response
     {
         $this->set("RejectedReason", $rejectedReason);
     }
-    
 }
-
-
-
-
-
-

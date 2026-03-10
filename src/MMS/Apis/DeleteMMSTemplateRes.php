@@ -24,9 +24,3 @@ class DeleteMMSTemplateRes extends Response
 {
 
 }
-
-
-
-
-
-

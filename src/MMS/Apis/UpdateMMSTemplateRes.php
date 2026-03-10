@@ -24,9 +24,3 @@ class UpdateMMSTemplateRes extends Response
 {
 
 }
-
-
-
-
-
-

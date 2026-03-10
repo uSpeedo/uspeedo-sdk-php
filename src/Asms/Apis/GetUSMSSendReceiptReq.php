@@ -29,7 +29,7 @@ class GetUSMSSendReceiptReq extends Request
 
 
     /**
-     * SessionNoSet: 
+     * SessionNoSet:
      *
      * @return string[]|null
      */
@@ -39,7 +39,7 @@ class GetUSMSSendReceiptReq extends Request
     }
 
     /**
-     * SessionNoSet: 
+     * SessionNoSet:
      *
      * @param string[] $sessionNoSet
      */
@@ -51,7 +51,7 @@ class GetUSMSSendReceiptReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/sms/api/
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -67,11 +67,4 @@ class GetUSMSSendReceiptReq extends Request
     {
         $this->set("AccountId", $accountId);
     }
-    
 }
-
-
-
-
-
-

@@ -42,11 +42,4 @@ class CreateMMSTemplateRes extends Response
     {
         $this->set("TemplateId", $templateId);
     }
-    
 }
-
-
-
-
-
-

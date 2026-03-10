@@ -26,7 +26,7 @@ class GetUSMSSendReceiptResp extends Response
 {
 
     /**
-     * Data: 
+     * Data:
      *
      * @return ReceiptPerSession[]|null
      */
@@ -44,7 +44,7 @@ class GetUSMSSendReceiptResp extends Response
     }
 
     /**
-     * Data: 
+     * Data:
      *
      * @param ReceiptPerSession[] $data
      */
@@ -56,11 +56,4 @@ class GetUSMSSendReceiptResp extends Response
         }
         $this->set("Data", $result);
     }
-    
 }
-
-
-
-
-
-

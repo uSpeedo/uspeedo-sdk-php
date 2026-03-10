@@ -29,9 +29,9 @@ class GetMessageSummaryReq extends Request
 
 
     /**
-     * AccountId: 
+     * AccountId:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -39,7 +39,7 @@ class GetMessageSummaryReq extends Request
     }
 
     /**
-     * AccountId: 
+     * AccountId:
      *
      * @param int $accountId
      */
@@ -49,9 +49,9 @@ class GetMessageSummaryReq extends Request
     }
     
     /**
-     * EndTime: 
+     * EndTime:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getEndTime()
     {
@@ -59,7 +59,7 @@ class GetMessageSummaryReq extends Request
     }
 
     /**
-     * EndTime: 
+     * EndTime:
      *
      * @param int $endTime
      */
@@ -69,9 +69,9 @@ class GetMessageSummaryReq extends Request
     }
     
     /**
-     * StartTime: 
+     * StartTime:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getStartTime()
     {
@@ -79,7 +79,7 @@ class GetMessageSummaryReq extends Request
     }
 
     /**
-     * StartTime: 
+     * StartTime:
      *
      * @param int $startTime
      */
@@ -87,11 +87,4 @@ class GetMessageSummaryReq extends Request
     {
         $this->set("StartTime", $startTime);
     }
-    
 }
-
-
-
-
-
-

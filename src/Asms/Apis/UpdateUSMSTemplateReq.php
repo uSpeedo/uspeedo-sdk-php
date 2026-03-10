@@ -52,7 +52,7 @@ class UpdateUSMSTemplateReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/sms/api/
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -70,7 +70,7 @@ class UpdateUSMSTemplateReq extends Request
     }
     
     /**
-     * Instruction: 
+     * Instruction:
      *
      * @return string|null
      */
@@ -80,7 +80,7 @@ class UpdateUSMSTemplateReq extends Request
     }
 
     /**
-     * Instruction: 
+     * Instruction:
      *
      * @param string $instruction
      */
@@ -110,7 +110,7 @@ class UpdateUSMSTemplateReq extends Request
     }
     
     /**
-     * Template: 
+     * Template:
      *
      * @return string|null
      */
@@ -120,7 +120,7 @@ class UpdateUSMSTemplateReq extends Request
     }
 
     /**
-     * Template: 
+     * Template:
      *
      * @param string $template
      */
@@ -130,7 +130,7 @@ class UpdateUSMSTemplateReq extends Request
     }
     
     /**
-     * TemplateId: 
+     * TemplateId:
      *
      * @return string|null
      */
@@ -140,7 +140,7 @@ class UpdateUSMSTemplateReq extends Request
     }
 
     /**
-     * TemplateId: 
+     * TemplateId:
      *
      * @param string $templateId
      */
@@ -150,7 +150,7 @@ class UpdateUSMSTemplateReq extends Request
     }
     
     /**
-     * TemplateName: 
+     * TemplateName:
      *
      * @return string|null
      */
@@ -160,7 +160,7 @@ class UpdateUSMSTemplateReq extends Request
     }
 
     /**
-     * TemplateName: 
+     * TemplateName:
      *
      * @param string $templateName
      */
@@ -168,11 +168,4 @@ class UpdateUSMSTemplateReq extends Request
     {
         $this->set("TemplateName", $templateName);
     }
-    
 }
-
-
-
-
-
-

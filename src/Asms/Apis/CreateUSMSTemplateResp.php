@@ -24,7 +24,7 @@ class CreateUSMSTemplateResp extends Response
 {
 
     /**
-     * TemplateId: 
+     * TemplateId:
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class CreateUSMSTemplateResp extends Response
     }
 
     /**
-     * TemplateId: 
+     * TemplateId:
      *
      * @param string $templateId
      */
@@ -42,11 +42,4 @@ class CreateUSMSTemplateResp extends Response
     {
         $this->set("TemplateId", $templateId);
     }
-    
 }
-
-
-
-
-
-

@@ -34,7 +34,7 @@ class SendMessageRequest extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://uspeedo.com/docs/api_sdk/api/
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -90,11 +90,4 @@ class SendMessageRequest extends Request
     {
         $this->set("TemplateId", $templateId);
     }
-    
 }
-
-
-
-
-
-

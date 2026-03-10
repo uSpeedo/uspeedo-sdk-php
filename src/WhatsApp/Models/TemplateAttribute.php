@@ -62,11 +62,4 @@ class TemplateAttribute extends Response
     {
         $this->set("Type", $type);
     }
-    
 }
-
-
-
-
-
-

@@ -43,7 +43,7 @@ class WhatsAppClient extends Client
 {
         
     /**
-     * GetMedia - 
+     * GetMedia -
      *
      * @throws USpeedoException
      */
@@ -54,7 +54,7 @@ class WhatsAppClient extends Client
     }
         
     /**
-     * GetMessageSummary - 
+     * GetMessageSummary -
      *
      * @throws USpeedoException
      */
@@ -65,7 +65,7 @@ class WhatsAppClient extends Client
     }
         
     /**
-     * GetTemplates - 
+     * GetTemplates -
      *
      * @throws USpeedoException
      */
@@ -76,7 +76,7 @@ class WhatsAppClient extends Client
     }
         
     /**
-     * SendWhatsappMessage - 
+     * SendWhatsappMessage -
      *
      * @throws USpeedoException
      */
@@ -87,7 +87,7 @@ class WhatsAppClient extends Client
     }
         
     /**
-     * UploadMedia - 
+     * UploadMedia -
      *
      * @throws USpeedoException
      */
@@ -98,7 +98,7 @@ class WhatsAppClient extends Client
     }
         
     /**
-     * DeleteMedia - 
+     * DeleteMedia -
      *
      * @throws USpeedoException
      */
@@ -109,7 +109,7 @@ class WhatsAppClient extends Client
     }
         
     /**
-     * DeleteTemplate - 
+     * DeleteTemplate -
      *
      * @throws USpeedoException
      */
@@ -120,7 +120,7 @@ class WhatsAppClient extends Client
     }
         
     /**
-     * GetAccountPhoneList - 
+     * GetAccountPhoneList -
      *
      * @throws USpeedoException
      */

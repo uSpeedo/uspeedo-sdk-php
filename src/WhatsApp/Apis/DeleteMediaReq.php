@@ -69,11 +69,4 @@ class DeleteMediaReq extends Request
     {
         $this->set("MediaId", $mediaId);
     }
-    
 }
-
-
-
-
-
-

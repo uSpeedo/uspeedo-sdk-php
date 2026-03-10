@@ -26,7 +26,7 @@ class GetMessageSummaryResData extends Response
 {
 
     /**
-     * Data: 
+     * Data:
      *
      * @return GetMessageSummaryRes|null
      */
@@ -36,7 +36,7 @@ class GetMessageSummaryResData extends Response
     }
 
     /**
-     * Data: 
+     * Data:
      *
      * @param GetMessageSummaryRes $data
      */
@@ -44,11 +44,4 @@ class GetMessageSummaryResData extends Response
     {
         $this->set("Data", $data->getAll());
     }
-    
 }
-
-
-
-
-
-

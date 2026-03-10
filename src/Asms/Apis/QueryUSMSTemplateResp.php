@@ -26,7 +26,7 @@ class QueryUSMSTemplateResp extends Response
 {
 
     /**
-     * Data: 
+     * Data:
      *
      * @return OutTemplate[]|null
      */
@@ -44,7 +44,7 @@ class QueryUSMSTemplateResp extends Response
     }
 
     /**
-     * Data: 
+     * Data:
      *
      * @param OutTemplate[] $data
      */
@@ -56,11 +56,4 @@ class QueryUSMSTemplateResp extends Response
         }
         $this->set("Data", $result);
     }
-    
 }
-
-
-
-
-
-

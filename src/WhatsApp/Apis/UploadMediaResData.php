@@ -25,7 +25,7 @@ class UploadMediaResData extends Response
 {
 
     /**
-     * Data: 
+     * Data:
      *
      * @return UploadMediaRes|null
      */
@@ -35,7 +35,7 @@ class UploadMediaResData extends Response
     }
 
     /**
-     * Data: 
+     * Data:
      *
      * @param UploadMediaRes $data
      */
@@ -43,11 +43,4 @@ class UploadMediaResData extends Response
     {
         $this->set("Data", $data->getAll());
     }
-    
 }
-
-
-
-
-
-

@@ -24,7 +24,7 @@ class GetAccountPhoneListRes extends Response
 {
 
     /**
-     * PhoneList: 
+     * PhoneList:
      *
      * @return GetAccountPhoneListResItem[]|null
      */
@@ -42,7 +42,7 @@ class GetAccountPhoneListRes extends Response
     }
 
     /**
-     * PhoneList: 
+     * PhoneList:
      *
      * @param GetAccountPhoneListResItem[] $phoneList
      */
@@ -54,11 +54,4 @@ class GetAccountPhoneListRes extends Response
         }
         $this->set("PhoneList", $result);
     }
-    
 }
-
-
-
-
-
-

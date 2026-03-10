@@ -82,11 +82,4 @@ class VariableAttr extends Response
     {
         $this->set("Attribute", $attribute);
     }
-    
 }
-
-
-
-
-
-

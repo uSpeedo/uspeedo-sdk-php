@@ -24,9 +24,3 @@ class UpdateUSMSTemplateResp extends Response
 {
 
 }
-
-
-
-
-
-

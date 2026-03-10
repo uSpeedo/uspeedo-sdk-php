@@ -39,7 +39,7 @@ class AsmsClient extends Client
 {
         
     /**
-     * UpdateUSMSTemplate - 
+     * UpdateUSMSTemplate -
      *
      * @throws USpeedoException
      */
@@ -50,7 +50,7 @@ class AsmsClient extends Client
     }
         
     /**
-     * GetUSMSSendReceipt - 
+     * GetUSMSSendReceipt -
      *
      * @throws USpeedoException
      */
@@ -61,7 +61,7 @@ class AsmsClient extends Client
     }
         
     /**
-     * SendBatchUSMSMessage - 
+     * SendBatchUSMSMessage -
      *
      * @throws USpeedoException
      */
@@ -72,7 +72,7 @@ class AsmsClient extends Client
     }
         
     /**
-     * QueryUSMSTemplate - 
+     * QueryUSMSTemplate -
      *
      * @throws USpeedoException
      */
@@ -83,7 +83,7 @@ class AsmsClient extends Client
     }
         
     /**
-     * CreateUSMSTemplate - 
+     * CreateUSMSTemplate -
      *
      * @throws USpeedoException
      */
@@ -94,7 +94,7 @@ class AsmsClient extends Client
     }
         
     /**
-     * DeleteUSMSTemplate - 
+     * DeleteUSMSTemplate -
      *
      * @throws USpeedoException
      */

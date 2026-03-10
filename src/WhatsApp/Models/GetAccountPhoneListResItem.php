@@ -24,7 +24,7 @@ class GetAccountPhoneListResItem extends Response
 {
 
     /**
-     * Country: 
+     * Country:
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class GetAccountPhoneListResItem extends Response
     }
 
     /**
-     * Country: 
+     * Country:
      *
      * @param string $country
      */
@@ -44,7 +44,7 @@ class GetAccountPhoneListResItem extends Response
     }
     
     /**
-     * DisplayName: 
+     * DisplayName:
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class GetAccountPhoneListResItem extends Response
     }
 
     /**
-     * DisplayName: 
+     * DisplayName:
      *
      * @param string $displayName
      */
@@ -64,7 +64,7 @@ class GetAccountPhoneListResItem extends Response
     }
     
     /**
-     * MessagingLimit: 
+     * MessagingLimit:
      *
      * @return string|null
      */
@@ -74,7 +74,7 @@ class GetAccountPhoneListResItem extends Response
     }
 
     /**
-     * MessagingLimit: 
+     * MessagingLimit:
      *
      * @param string $messagingLimit
      */
@@ -84,7 +84,7 @@ class GetAccountPhoneListResItem extends Response
     }
     
     /**
-     * Number: 
+     * Number:
      *
      * @return string|null
      */
@@ -94,7 +94,7 @@ class GetAccountPhoneListResItem extends Response
     }
 
     /**
-     * Number: 
+     * Number:
      *
      * @param string $number
      */
@@ -104,7 +104,7 @@ class GetAccountPhoneListResItem extends Response
     }
     
     /**
-     * QualityRating: 
+     * QualityRating:
      *
      * @return string|null
      */
@@ -114,7 +114,7 @@ class GetAccountPhoneListResItem extends Response
     }
 
     /**
-     * QualityRating: 
+     * QualityRating:
      *
      * @param string $qualityRating
      */
@@ -124,7 +124,7 @@ class GetAccountPhoneListResItem extends Response
     }
     
     /**
-     * Status: 
+     * Status:
      *
      * @return string|null
      */
@@ -134,7 +134,7 @@ class GetAccountPhoneListResItem extends Response
     }
 
     /**
-     * Status: 
+     * Status:
      *
      * @param string $status
      */
@@ -142,11 +142,4 @@ class GetAccountPhoneListResItem extends Response
     {
         $this->set("Status", $status);
     }
-    
 }
-
-
-
-
-
-

@@ -26,7 +26,7 @@ class GetAccountPhoneListResData extends Response
 {
 
     /**
-     * Data: 
+     * Data:
      *
      * @return GetAccountPhoneListRes|null
      */
@@ -36,7 +36,7 @@ class GetAccountPhoneListResData extends Response
     }
 
     /**
-     * Data: 
+     * Data:
      *
      * @param GetAccountPhoneListRes $data
      */
@@ -44,11 +44,4 @@ class GetAccountPhoneListResData extends Response
     {
         $this->set("Data", $data->getAll());
     }
-    
 }
-
-
-
-
-
-

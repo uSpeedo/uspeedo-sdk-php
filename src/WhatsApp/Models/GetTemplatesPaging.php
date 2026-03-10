@@ -24,7 +24,7 @@ class GetTemplatesPaging extends Response
 {
 
     /**
-     * Cursors: 
+     * Cursors:
      *
      * @return GetTemplatesCursors|null
      */
@@ -34,7 +34,7 @@ class GetTemplatesPaging extends Response
     }
 
     /**
-     * Cursors: 
+     * Cursors:
      *
      * @param GetTemplatesCursors $cursors
      */
@@ -44,7 +44,7 @@ class GetTemplatesPaging extends Response
     }
     
     /**
-     * Next: 
+     * Next:
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class GetTemplatesPaging extends Response
     }
 
     /**
-     * Next: 
+     * Next:
      *
      * @param string $next
      */
@@ -64,7 +64,7 @@ class GetTemplatesPaging extends Response
     }
     
     /**
-     * Previous: 
+     * Previous:
      *
      * @return string|null
      */
@@ -74,7 +74,7 @@ class GetTemplatesPaging extends Response
     }
 
     /**
-     * Previous: 
+     * Previous:
      *
      * @param string $previous
      */
@@ -82,11 +82,4 @@ class GetTemplatesPaging extends Response
     {
         $this->set("Previous", $previous);
     }
-    
 }
-
-
-
-
-
-

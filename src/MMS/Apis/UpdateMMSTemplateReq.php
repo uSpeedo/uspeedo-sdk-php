@@ -33,7 +33,7 @@ class UpdateMMSTemplateReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/mms/api/
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -91,7 +91,7 @@ class UpdateMMSTemplateReq extends Request
     }
     
     /**
-     * TemplateId: 
+     * TemplateId:
      *
      * @return string|null
      */
@@ -101,7 +101,7 @@ class UpdateMMSTemplateReq extends Request
     }
 
     /**
-     * TemplateId: 
+     * TemplateId:
      *
      * @param string $templateId
      */
@@ -111,7 +111,7 @@ class UpdateMMSTemplateReq extends Request
     }
     
     /**
-     * TemplateName: 
+     * TemplateName:
      *
      * @return string|null
      */
@@ -121,7 +121,7 @@ class UpdateMMSTemplateReq extends Request
     }
 
     /**
-     * TemplateName: 
+     * TemplateName:
      *
      * @param string $templateName
      */
@@ -171,7 +171,7 @@ class UpdateMMSTemplateReq extends Request
     }
     
     /**
-     * Text: 
+     * Text:
      *
      * @return string|null
      */
@@ -181,7 +181,7 @@ class UpdateMMSTemplateReq extends Request
     }
 
     /**
-     * Text: 
+     * Text:
      *
      * @param string $text
      */
@@ -209,11 +209,4 @@ class UpdateMMSTemplateReq extends Request
     {
         $this->set("VariableAttr", $variableAttr);
     }
-    
 }
-
-
-
-
-
-

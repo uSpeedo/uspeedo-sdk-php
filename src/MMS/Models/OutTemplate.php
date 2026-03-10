@@ -24,7 +24,7 @@ class OutTemplate extends Response
 {
 
     /**
-     * TemplateId: 
+     * TemplateId:
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * TemplateId: 
+     * TemplateId:
      *
      * @param string $templateId
      */
@@ -96,7 +96,7 @@ class OutTemplate extends Response
     }
     
     /**
-     * ErrDesc: 
+     * ErrDesc:
      *
      * @return string|null
      */
@@ -106,7 +106,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * ErrDesc: 
+     * ErrDesc:
      *
      * @param string $errDesc
      */
@@ -136,9 +136,9 @@ class OutTemplate extends Response
     }
     
     /**
-     * Status: 
+     * Status:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getStatus()
     {
@@ -146,7 +146,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * Status: 
+     * Status:
      *
      * @param int $status
      */
@@ -156,7 +156,7 @@ class OutTemplate extends Response
     }
     
     /**
-     * TemplateName: 
+     * TemplateName:
      *
      * @return string|null
      */
@@ -166,7 +166,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * TemplateName: 
+     * TemplateName:
      *
      * @param string $templateName
      */
@@ -176,9 +176,9 @@ class OutTemplate extends Response
     }
     
     /**
-     * CreateTime: 
+     * CreateTime:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getCreateTime()
     {
@@ -186,7 +186,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * CreateTime: 
+     * CreateTime:
      *
      * @param int $createTime
      */
@@ -254,11 +254,4 @@ class OutTemplate extends Response
     {
         $this->set("Tags", $tags);
     }
-    
 }
-
-
-
-
-
-

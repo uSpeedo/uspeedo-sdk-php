@@ -33,7 +33,7 @@ class QueryMMSTemplateReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/mms/api/
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -69,11 +69,4 @@ class QueryMMSTemplateReq extends Request
     {
         $this->set("TemplateIds", $templateIds);
     }
-    
 }
-
-
-
-
-
-

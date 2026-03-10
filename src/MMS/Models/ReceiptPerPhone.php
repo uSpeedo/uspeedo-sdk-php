@@ -24,7 +24,7 @@ class ReceiptPerPhone extends Response
 {
 
     /**
-     * ReceiptDesc: 
+     * ReceiptDesc:
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class ReceiptPerPhone extends Response
     }
 
     /**
-     * ReceiptDesc: 
+     * ReceiptDesc:
      *
      * @param string $receiptDesc
      */
@@ -44,7 +44,7 @@ class ReceiptPerPhone extends Response
     }
     
     /**
-     * ReceiptResult: 
+     * ReceiptResult:
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class ReceiptPerPhone extends Response
     }
 
     /**
-     * ReceiptResult: 
+     * ReceiptResult:
      *
      * @param string $receiptResult
      */
@@ -64,9 +64,9 @@ class ReceiptPerPhone extends Response
     }
     
     /**
-     * ReceiptTime: 
+     * ReceiptTime:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getReceiptTime()
     {
@@ -74,7 +74,7 @@ class ReceiptPerPhone extends Response
     }
 
     /**
-     * ReceiptTime: 
+     * ReceiptTime:
      *
      * @param int $receiptTime
      */
@@ -84,9 +84,9 @@ class ReceiptPerPhone extends Response
     }
     
     /**
-     * AccountId: 
+     * AccountId:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getAccountId()
     {
@@ -94,7 +94,7 @@ class ReceiptPerPhone extends Response
     }
 
     /**
-     * AccountId: 
+     * AccountId:
      *
      * @param int $accountId
      */
@@ -104,9 +104,9 @@ class ReceiptPerPhone extends Response
     }
     
     /**
-     * CostCount: 
+     * CostCount:
      *
-     * @return int|null
+     * @return integer|null
      */
     public function getCostCount()
     {
@@ -114,7 +114,7 @@ class ReceiptPerPhone extends Response
     }
 
     /**
-     * CostCount: 
+     * CostCount:
      *
      * @param int $costCount
      */
@@ -124,7 +124,7 @@ class ReceiptPerPhone extends Response
     }
     
     /**
-     * Phone: 
+     * Phone:
      *
      * @return string|null
      */
@@ -134,7 +134,7 @@ class ReceiptPerPhone extends Response
     }
 
     /**
-     * Phone: 
+     * Phone:
      *
      * @param string $phone
      */
@@ -144,7 +144,7 @@ class ReceiptPerPhone extends Response
     }
     
     /**
-     * ReceiptCode: 
+     * ReceiptCode:
      *
      * @return string|null
      */
@@ -154,7 +154,7 @@ class ReceiptPerPhone extends Response
     }
 
     /**
-     * ReceiptCode: 
+     * ReceiptCode:
      *
      * @param string $receiptCode
      */
@@ -162,11 +162,4 @@ class ReceiptPerPhone extends Response
     {
         $this->set("ReceiptCode", $receiptCode);
     }
-    
 }
-
-
-
-
-
-

@@ -24,7 +24,7 @@ class SendInfoWithFailure extends Response
 {
 
     /**
-     * FailureDetails: 
+     * FailureDetails:
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class SendInfoWithFailure extends Response
     }
 
     /**
-     * FailureDetails: 
+     * FailureDetails:
      *
      * @param string $failureDetails
      */
@@ -64,7 +64,7 @@ class SendInfoWithFailure extends Response
     }
     
     /**
-     * Target: 
+     * Target:
      *
      * @return TargetPhoneWithFailure[]|null
      */
@@ -82,7 +82,7 @@ class SendInfoWithFailure extends Response
     }
 
     /**
-     * Target: 
+     * Target:
      *
      * @param TargetPhoneWithFailure[] $target
      */
@@ -114,11 +114,4 @@ class SendInfoWithFailure extends Response
     {
         $this->set("TemplateId", $templateId);
     }
-    
 }
-
-
-
-
-
-
