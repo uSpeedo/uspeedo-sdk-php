@@ -39,9 +39,9 @@ function main()
     // Set email content
     $req->setEmailContent($emailContent);
 
-    // 可选：设置邮件主题与摘要
-    $req->setSubject("自定义邮件主题");
-    $req->setAbstract("邮件摘要内容");
+    // Optional: set email subject and abstract
+    $req->setSubject("Custom email subject");
+    $req->setAbstract("Email abstract content");
 
     $resp = $client->sendEmailTemplate($req);
     $session = $resp->getSessionNo();

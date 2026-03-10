@@ -125,7 +125,7 @@ class SendEmailTemplateReq extends Request
     }
 
     /**
-     * Subject: 邮件主题（可选）
+     * Subject: email subject (optional)
      *
      * @return string|null
      */
@@ -135,7 +135,7 @@ class SendEmailTemplateReq extends Request
     }
 
     /**
-     * Subject: 邮件主题（可选）
+     * Subject: email subject (optional)
      *
      * @param string|null $subject
      */
@@ -145,7 +145,7 @@ class SendEmailTemplateReq extends Request
     }
 
     /**
-     * Abstract: 邮件摘要（可选）
+     * Abstract: email abstract/summary (optional)
      *
      * @return string|null
      */
@@ -155,7 +155,7 @@ class SendEmailTemplateReq extends Request
     }
 
     /**
-     * Abstract: 邮件摘要（可选）
+     * Abstract: email abstract/summary (optional)
      *
      * @param string|null $abstract
      */

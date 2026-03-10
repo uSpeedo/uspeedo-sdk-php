@@ -8,10 +8,10 @@ use USpeedo\Email\EmailClient;
 use USpeedo\Email\Models\TargetEmail;
 
 /**
- * Email 集成测试
+ * Email integration test
  *
- * 1. 序列化测试：验证 Subject、Abstract 可选字段的 encode 行为
- * 2. 真实 API 调用：需设置环境变量 USPEEDO_PUBLIC_KEY、USPEEDO_PRIVATE_KEY，否则跳过
+ * 1. Serialization test: verify encode behavior of optional Subject and Abstract fields
+ * 2. Real API call: requires USPEEDO_PUBLIC_KEY and USPEEDO_PRIVATE_KEY env vars, otherwise skipped
  */
 class EmailClientIntegrationTest extends TestCase
 {
@@ -47,13 +47,13 @@ class EmailClientIntegrationTest extends TestCase
     public function testSendEmailTemplateReqEncodeWithOptionalFields(): void
     {
         $req = $this->buildMinimalRequest();
-        $req->setSubject("自定义邮件主题");
-        $req->setAbstract("邮件摘要内容");
+        $req->setSubject("Custom email subject");
+        $req->setAbstract("Email abstract content");
 
         $encoded = $req->toArray();
 
-        $this->assertEquals("自定义邮件主题", $encoded["Subject"]);
-        $this->assertEquals("邮件摘要内容", $encoded["Abstract"]);
+        $this->assertEquals("Custom email subject", $encoded["Subject"]);
+        $this->assertEquals("Email abstract content", $encoded["Abstract"]);
     }
 
     public function testSendEmailTemplateIntegration(): void
@@ -71,8 +71,8 @@ class EmailClientIntegrationTest extends TestCase
         ]);
 
         $req = $this->buildMinimalRequest();
-        $req->setSubject("集成测试主题");
-        $req->setAbstract("集成测试摘要");
+        $req->setSubject("Integration test subject");
+        $req->setAbstract("Integration test abstract");
 
         $resp = $client->sendEmailTemplate($req);
 
