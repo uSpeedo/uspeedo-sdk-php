@@ -123,7 +123,47 @@ class SendEmailTemplateReq extends Request
     {
         $this->set("TemplateId", $templateId);
     }
-    
+
+    /**
+     * Subject: 邮件主题（可选）
+     *
+     * @return string|null
+     */
+    public function getSubject()
+    {
+        return $this->get("Subject");
+    }
+
+    /**
+     * Subject: 邮件主题（可选）
+     *
+     * @param string|null $subject
+     */
+    public function setSubject(?string $subject)
+    {
+        $this->set("Subject", $subject);
+    }
+
+    /**
+     * Abstract: 邮件摘要（可选）
+     *
+     * @return string|null
+     */
+    public function getAbstract()
+    {
+        return $this->get("Abstract");
+    }
+
+    /**
+     * Abstract: 邮件摘要（可选）
+     *
+     * @param string|null $abstract
+     */
+    public function setAbstract(?string $abstract)
+    {
+        $this->set("Abstract", $abstract);
+    }
+
 }
 
 
