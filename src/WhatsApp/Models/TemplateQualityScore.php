@@ -24,7 +24,7 @@ class TemplateQualityScore extends Response
 {
 
     /**
-     * Score:
+     * Score: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class TemplateQualityScore extends Response
     }
 
     /**
-     * Score:
+     * Score: 
      *
      * @param string $score
      */
@@ -42,4 +42,11 @@ class TemplateQualityScore extends Response
     {
         $this->set("Score", $score);
     }
+    
 }
+
+
+
+
+
+

@@ -35,7 +35,7 @@ class SendEmailTemplateReq extends Request
     /**
      * AccountId: account id
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getAccountId()
     {
@@ -53,7 +53,7 @@ class SendEmailTemplateReq extends Request
     }
     
     /**
-     * EmailContent:
+     * EmailContent: 
      *
      * @return TargetEmail[]|null
      */
@@ -71,7 +71,7 @@ class SendEmailTemplateReq extends Request
     }
 
     /**
-     * EmailContent:
+     * EmailContent: 
      *
      * @param TargetEmail[] $emailContent
      */
@@ -85,7 +85,7 @@ class SendEmailTemplateReq extends Request
     }
     
     /**
-     * SendEmail:
+     * SendEmail: 
      *
      * @return string|null
      */
@@ -95,7 +95,7 @@ class SendEmailTemplateReq extends Request
     }
 
     /**
-     * SendEmail:
+     * SendEmail: 
      *
      * @param string $sendEmail
      */
@@ -105,7 +105,7 @@ class SendEmailTemplateReq extends Request
     }
     
     /**
-     * TemplateId:
+     * TemplateId: 
      *
      * @return string|null
      */
@@ -115,7 +115,7 @@ class SendEmailTemplateReq extends Request
     }
 
     /**
-     * TemplateId:
+     * TemplateId: 
      *
      * @param string $templateId
      */
@@ -163,4 +163,11 @@ class SendEmailTemplateReq extends Request
     {
         $this->set("Abstract", $abstract);
     }
+
 }
+
+
+
+
+
+

@@ -30,7 +30,7 @@ class GetTemplatesReq extends Request
 
 
     /**
-     * After:
+     * After: 
      *
      * @return string|null
      */
@@ -40,7 +40,7 @@ class GetTemplatesReq extends Request
     }
 
     /**
-     * After:
+     * After: 
      *
      * @param string $after
      */
@@ -50,7 +50,7 @@ class GetTemplatesReq extends Request
     }
     
     /**
-     * Before:
+     * Before: 
      *
      * @return string|null
      */
@@ -60,7 +60,7 @@ class GetTemplatesReq extends Request
     }
 
     /**
-     * Before:
+     * Before: 
      *
      * @param string $before
      */
@@ -70,7 +70,7 @@ class GetTemplatesReq extends Request
     }
     
     /**
-     * BusinessPhone:
+     * BusinessPhone: 
      *
      * @return string|null
      */
@@ -80,7 +80,7 @@ class GetTemplatesReq extends Request
     }
 
     /**
-     * BusinessPhone:
+     * BusinessPhone: 
      *
      * @param string $businessPhone
      */
@@ -90,9 +90,9 @@ class GetTemplatesReq extends Request
     }
     
     /**
-     * Limit:
+     * Limit: 
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getLimit()
     {
@@ -100,7 +100,7 @@ class GetTemplatesReq extends Request
     }
 
     /**
-     * Limit:
+     * Limit: 
      *
      * @param int $limit
      */
@@ -110,7 +110,7 @@ class GetTemplatesReq extends Request
     }
     
     /**
-     * Name:
+     * Name: 
      *
      * @return string|null
      */
@@ -120,7 +120,7 @@ class GetTemplatesReq extends Request
     }
 
     /**
-     * Name:
+     * Name: 
      *
      * @param string $name
      */
@@ -128,4 +128,11 @@ class GetTemplatesReq extends Request
     {
         $this->set("Name", $name);
     }
+    
 }
+
+
+
+
+
+

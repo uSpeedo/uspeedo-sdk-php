@@ -24,7 +24,7 @@ class FailedTargetEmail extends Response
 {
 
     /**
-     * EmailAddress:
+     * EmailAddress: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class FailedTargetEmail extends Response
     }
 
     /**
-     * EmailAddress:
+     * EmailAddress: 
      *
      * @param string $emailAddress
      */
@@ -44,7 +44,7 @@ class FailedTargetEmail extends Response
     }
     
     /**
-     * FailureReason:
+     * FailureReason: 
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class FailedTargetEmail extends Response
     }
 
     /**
-     * FailureReason:
+     * FailureReason: 
      *
      * @param string $failureReason
      */
@@ -82,4 +82,11 @@ class FailedTargetEmail extends Response
     {
         $this->set("TemplateVariableParams", $templateVariableParams);
     }
+    
 }
+
+
+
+
+
+

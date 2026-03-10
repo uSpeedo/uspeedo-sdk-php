@@ -24,3 +24,9 @@ class DeleteTemplateRes extends Response
 {
 
 }
+
+
+
+
+
+

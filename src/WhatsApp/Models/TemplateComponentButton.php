@@ -24,7 +24,7 @@ class TemplateComponentButton extends Response
 {
 
     /**
-     * PhoneNumber:
+     * PhoneNumber: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class TemplateComponentButton extends Response
     }
 
     /**
-     * PhoneNumber:
+     * PhoneNumber: 
      *
      * @param string $phoneNumber
      */
@@ -44,7 +44,7 @@ class TemplateComponentButton extends Response
     }
     
     /**
-     * Text:
+     * Text: 
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class TemplateComponentButton extends Response
     }
 
     /**
-     * Text:
+     * Text: 
      *
      * @param string $text
      */
@@ -64,7 +64,7 @@ class TemplateComponentButton extends Response
     }
     
     /**
-     * Type:
+     * Type: 
      *
      * @return string|null
      */
@@ -74,7 +74,7 @@ class TemplateComponentButton extends Response
     }
 
     /**
-     * Type:
+     * Type: 
      *
      * @param string $type
      */
@@ -84,7 +84,7 @@ class TemplateComponentButton extends Response
     }
     
     /**
-     * URL:
+     * URL: 
      *
      * @return string|null
      */
@@ -94,7 +94,7 @@ class TemplateComponentButton extends Response
     }
 
     /**
-     * URL:
+     * URL: 
      *
      * @param string $url
      */
@@ -104,7 +104,7 @@ class TemplateComponentButton extends Response
     }
     
     /**
-     * Example:
+     * Example: 
      *
      * @return string[]|null
      */
@@ -114,7 +114,7 @@ class TemplateComponentButton extends Response
     }
 
     /**
-     * Example:
+     * Example: 
      *
      * @param string[] $example
      */
@@ -122,4 +122,11 @@ class TemplateComponentButton extends Response
     {
         $this->set("Example", $example);
     }
+    
 }
+
+
+
+
+
+

@@ -32,7 +32,7 @@ class CreateUSMSTemplateReq extends Request
 
 
     /**
-     * Remark:
+     * Remark: 
      *
      * @return string|null
      */
@@ -42,7 +42,7 @@ class CreateUSMSTemplateReq extends Request
     }
 
     /**
-     * Remark:
+     * Remark: 
      *
      * @param string $remark
      */
@@ -52,7 +52,7 @@ class CreateUSMSTemplateReq extends Request
     }
     
     /**
-     * Template:
+     * Template: 
      *
      * @return string|null
      */
@@ -62,7 +62,7 @@ class CreateUSMSTemplateReq extends Request
     }
 
     /**
-     * Template:
+     * Template: 
      *
      * @param string $template
      */
@@ -72,7 +72,7 @@ class CreateUSMSTemplateReq extends Request
     }
     
     /**
-     * TemplateName:
+     * TemplateName: 
      *
      * @return string|null
      */
@@ -82,7 +82,7 @@ class CreateUSMSTemplateReq extends Request
     }
 
     /**
-     * TemplateName:
+     * TemplateName: 
      *
      * @param string $templateName
      */
@@ -94,7 +94,7 @@ class CreateUSMSTemplateReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/sms/api/
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getAccountId()
     {
@@ -114,7 +114,7 @@ class CreateUSMSTemplateReq extends Request
     /**
      * Purpose: Verification code: 1 , Notify : 2, sale : 3
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getPurpose()
     {
@@ -130,4 +130,11 @@ class CreateUSMSTemplateReq extends Request
     {
         $this->set("Purpose", $purpose);
     }
+    
 }
+
+
+
+
+
+

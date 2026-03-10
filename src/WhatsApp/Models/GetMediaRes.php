@@ -24,7 +24,7 @@ class GetMediaRes extends Response
 {
 
     /**
-     * FileName:
+     * FileName: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class GetMediaRes extends Response
     }
 
     /**
-     * FileName:
+     * FileName: 
      *
      * @param string $fileName
      */
@@ -44,7 +44,7 @@ class GetMediaRes extends Response
     }
     
     /**
-     * MimeType:
+     * MimeType: 
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class GetMediaRes extends Response
     }
 
     /**
-     * MimeType:
+     * MimeType: 
      *
      * @param string $mimeType
      */
@@ -64,7 +64,7 @@ class GetMediaRes extends Response
     }
     
     /**
-     * URL:
+     * URL: 
      *
      * @return string|null
      */
@@ -74,7 +74,7 @@ class GetMediaRes extends Response
     }
 
     /**
-     * URL:
+     * URL: 
      *
      * @param string $url
      */
@@ -82,4 +82,11 @@ class GetMediaRes extends Response
     {
         $this->set("URL", $url);
     }
+    
 }
+
+
+
+
+
+

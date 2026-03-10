@@ -31,7 +31,7 @@ class DeleteTemplateReq extends Request
 
 
     /**
-     * BusinessPhone:
+     * BusinessPhone: 
      *
      * @return string|null
      */
@@ -41,7 +41,7 @@ class DeleteTemplateReq extends Request
     }
 
     /**
-     * BusinessPhone:
+     * BusinessPhone: 
      *
      * @param string $businessPhone
      */
@@ -51,7 +51,7 @@ class DeleteTemplateReq extends Request
     }
     
     /**
-     * Name:
+     * Name: 
      *
      * @return string|null
      */
@@ -61,7 +61,7 @@ class DeleteTemplateReq extends Request
     }
 
     /**
-     * Name:
+     * Name: 
      *
      * @param string $name
      */
@@ -69,4 +69,11 @@ class DeleteTemplateReq extends Request
     {
         $this->set("Name", $name);
     }
+    
 }
+
+
+
+
+
+

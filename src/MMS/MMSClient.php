@@ -39,7 +39,7 @@ class MMSClient extends Client
 {
         
     /**
-     * DeleteMMSTemplate -
+     * DeleteMMSTemplate - 
      *
      * @throws USpeedoException
      */
@@ -50,7 +50,7 @@ class MMSClient extends Client
     }
         
     /**
-     * QueryMMSTemplate -
+     * QueryMMSTemplate - 
      *
      * @throws USpeedoException
      */
@@ -61,7 +61,7 @@ class MMSClient extends Client
     }
         
     /**
-     * SendBatchMMSMessage -
+     * SendBatchMMSMessage - 
      *
      * @throws USpeedoException
      */
@@ -72,7 +72,7 @@ class MMSClient extends Client
     }
         
     /**
-     * GetMMSSendReceipt -
+     * GetMMSSendReceipt - 
      *
      * @throws USpeedoException
      */
@@ -83,7 +83,7 @@ class MMSClient extends Client
     }
         
     /**
-     * UpdateMMSTemplate -
+     * UpdateMMSTemplate - 
      *
      * @throws USpeedoException
      */
@@ -94,7 +94,7 @@ class MMSClient extends Client
     }
         
     /**
-     * CreateMMSTemplate -
+     * CreateMMSTemplate - 
      *
      * @throws USpeedoException
      */

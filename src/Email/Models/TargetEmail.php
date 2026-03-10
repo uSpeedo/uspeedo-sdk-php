@@ -24,7 +24,7 @@ class TargetEmail extends Response
 {
 
     /**
-     * EmailAddress:
+     * EmailAddress: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class TargetEmail extends Response
     }
 
     /**
-     * EmailAddress:
+     * EmailAddress: 
      *
      * @param string $emailAddress
      */
@@ -62,4 +62,11 @@ class TargetEmail extends Response
     {
         $this->set("TemplateVariableParams", $templateVariableParams);
     }
+    
 }
+
+
+
+
+
+

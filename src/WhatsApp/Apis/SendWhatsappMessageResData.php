@@ -25,7 +25,7 @@ class SendWhatsappMessageResData extends Response
 {
 
     /**
-     * Data:
+     * Data: 
      *
      * @return SendWhatsappMessageRes|null
      */
@@ -35,7 +35,7 @@ class SendWhatsappMessageResData extends Response
     }
 
     /**
-     * Data:
+     * Data: 
      *
      * @param SendWhatsappMessageRes $data
      */
@@ -43,4 +43,11 @@ class SendWhatsappMessageResData extends Response
     {
         $this->set("Data", $data->getAll());
     }
+    
 }
+
+
+
+
+
+

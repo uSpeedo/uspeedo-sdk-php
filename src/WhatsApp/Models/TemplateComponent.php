@@ -24,7 +24,7 @@ class TemplateComponent extends Response
 {
 
     /**
-     * Example:
+     * Example: 
      *
      * @return TemplateComponentExample|null
      */
@@ -34,7 +34,7 @@ class TemplateComponent extends Response
     }
 
     /**
-     * Example:
+     * Example: 
      *
      * @param TemplateComponentExample $example
      */
@@ -44,7 +44,7 @@ class TemplateComponent extends Response
     }
     
     /**
-     * Format:
+     * Format: 
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class TemplateComponent extends Response
     }
 
     /**
-     * Format:
+     * Format: 
      *
      * @param string $format
      */
@@ -64,7 +64,7 @@ class TemplateComponent extends Response
     }
     
     /**
-     * Text:
+     * Text: 
      *
      * @return string|null
      */
@@ -74,7 +74,7 @@ class TemplateComponent extends Response
     }
 
     /**
-     * Text:
+     * Text: 
      *
      * @param string $text
      */
@@ -84,7 +84,7 @@ class TemplateComponent extends Response
     }
     
     /**
-     * Type:
+     * Type: 
      *
      * @return string|null
      */
@@ -94,7 +94,7 @@ class TemplateComponent extends Response
     }
 
     /**
-     * Type:
+     * Type: 
      *
      * @param string $type
      */
@@ -104,7 +104,7 @@ class TemplateComponent extends Response
     }
     
     /**
-     * Buttons:
+     * Buttons: 
      *
      * @return TemplateComponentButton[]|null
      */
@@ -122,7 +122,7 @@ class TemplateComponent extends Response
     }
 
     /**
-     * Buttons:
+     * Buttons: 
      *
      * @param TemplateComponentButton[] $buttons
      */
@@ -134,4 +134,11 @@ class TemplateComponent extends Response
         }
         $this->set("Buttons", $result);
     }
+    
 }
+
+
+
+
+
+

@@ -24,7 +24,7 @@ class ReceiptPerSession extends Response
 {
 
     /**
-     * SessionNo:
+     * SessionNo: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class ReceiptPerSession extends Response
     }
 
     /**
-     * SessionNo:
+     * SessionNo: 
      *
      * @param string $sessionNo
      */
@@ -44,7 +44,7 @@ class ReceiptPerSession extends Response
     }
     
     /**
-     * ReceiptSet:
+     * ReceiptSet: 
      *
      * @return ReceiptPerPhone[]|null
      */
@@ -62,7 +62,7 @@ class ReceiptPerSession extends Response
     }
 
     /**
-     * ReceiptSet:
+     * ReceiptSet: 
      *
      * @param ReceiptPerPhone[] $receiptSet
      */
@@ -74,4 +74,11 @@ class ReceiptPerSession extends Response
         }
         $this->set("ReceiptSet", $result);
     }
+    
 }
+
+
+
+
+
+

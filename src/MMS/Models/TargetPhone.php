@@ -24,7 +24,7 @@ class TargetPhone extends Response
 {
 
     /**
-     * Phone:
+     * Phone: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class TargetPhone extends Response
     }
 
     /**
-     * Phone:
+     * Phone: 
      *
      * @param string $phone
      */
@@ -44,7 +44,7 @@ class TargetPhone extends Response
     }
     
     /**
-     * TemplateParams:
+     * TemplateParams: 
      *
      * @return string[]|null
      */
@@ -54,7 +54,7 @@ class TargetPhone extends Response
     }
 
     /**
-     * TemplateParams:
+     * TemplateParams: 
      *
      * @param string[] $templateParams
      */
@@ -62,4 +62,11 @@ class TargetPhone extends Response
     {
         $this->set("TemplateParams", $templateParams);
     }
+    
 }
+
+
+
+
+
+

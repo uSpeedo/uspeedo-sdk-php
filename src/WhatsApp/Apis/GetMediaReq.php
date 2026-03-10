@@ -69,4 +69,11 @@ class GetMediaReq extends Request
     {
         $this->set("MediaId", $mediaId);
     }
+    
 }
+
+
+
+
+
+

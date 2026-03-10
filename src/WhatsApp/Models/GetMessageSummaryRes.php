@@ -26,7 +26,7 @@ class GetMessageSummaryRes extends Response
     /**
      * MsgAmount: total amount of messages
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getMsgAmount()
     {
@@ -78,7 +78,7 @@ class GetMessageSummaryRes extends Response
     /**
      * MsgNum: total number of messages
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getMsgNum()
     {
@@ -94,4 +94,11 @@ class GetMessageSummaryRes extends Response
     {
         $this->set("MsgNum", $msgNum);
     }
+    
 }
+
+
+
+
+
+

@@ -26,7 +26,7 @@ class SendBatchMMSMessageRes extends Response
 {
 
     /**
-     * SessionNo:
+     * SessionNo: 
      *
      * @return string|null
      */
@@ -36,7 +36,7 @@ class SendBatchMMSMessageRes extends Response
     }
 
     /**
-     * SessionNo:
+     * SessionNo: 
      *
      * @param string $sessionNo
      */
@@ -46,9 +46,9 @@ class SendBatchMMSMessageRes extends Response
     }
     
     /**
-     * SuccessCount:
+     * SuccessCount: 
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getSuccessCount()
     {
@@ -56,7 +56,7 @@ class SendBatchMMSMessageRes extends Response
     }
 
     /**
-     * SuccessCount:
+     * SuccessCount: 
      *
      * @param int $successCount
      */
@@ -66,7 +66,7 @@ class SendBatchMMSMessageRes extends Response
     }
     
     /**
-     * FailContent:
+     * FailContent: 
      *
      * @return SendInfoWithFailure[]|null
      */
@@ -84,7 +84,7 @@ class SendBatchMMSMessageRes extends Response
     }
 
     /**
-     * FailContent:
+     * FailContent: 
      *
      * @param SendInfoWithFailure[] $failContent
      */
@@ -96,4 +96,11 @@ class SendBatchMMSMessageRes extends Response
         }
         $this->set("FailContent", $result);
     }
+    
 }
+
+
+
+
+
+

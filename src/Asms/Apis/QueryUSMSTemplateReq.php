@@ -52,7 +52,7 @@ class QueryUSMSTemplateReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/sms/api/
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getAccountId()
     {
@@ -68,4 +68,11 @@ class QueryUSMSTemplateReq extends Request
     {
         $this->set("AccountId", $accountId);
     }
+    
 }
+
+
+
+
+
+

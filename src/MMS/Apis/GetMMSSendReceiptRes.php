@@ -26,7 +26,7 @@ class GetMMSSendReceiptRes extends Response
 {
 
     /**
-     * Data:
+     * Data: 
      *
      * @return ReceiptPerSession[]|null
      */
@@ -44,7 +44,7 @@ class GetMMSSendReceiptRes extends Response
     }
 
     /**
-     * Data:
+     * Data: 
      *
      * @param ReceiptPerSession[] $data
      */
@@ -56,4 +56,11 @@ class GetMMSSendReceiptRes extends Response
         }
         $this->set("Data", $result);
     }
+    
 }
+
+
+
+
+
+

@@ -32,7 +32,7 @@ class DeleteUSMSTemplateReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/sms/api/
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getAccountId()
     {
@@ -50,7 +50,7 @@ class DeleteUSMSTemplateReq extends Request
     }
     
     /**
-     * TemplateIds:
+     * TemplateIds: 
      *
      * @return string[]|null
      */
@@ -60,7 +60,7 @@ class DeleteUSMSTemplateReq extends Request
     }
 
     /**
-     * TemplateIds:
+     * TemplateIds: 
      *
      * @param string[] $templateIds
      */
@@ -68,4 +68,11 @@ class DeleteUSMSTemplateReq extends Request
     {
         $this->set("TemplateIds", $templateIds);
     }
+    
 }
+
+
+
+
+
+

@@ -24,3 +24,9 @@ class DeleteUSMSTemplateResp extends Response
 {
 
 }
+
+
+
+
+
+

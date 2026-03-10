@@ -24,7 +24,7 @@ class GetTemplatesRes extends Response
 {
 
     /**
-     * Data:
+     * Data: 
      *
      * @return TemplateInfo[]|null
      */
@@ -42,7 +42,7 @@ class GetTemplatesRes extends Response
     }
 
     /**
-     * Data:
+     * Data: 
      *
      * @param TemplateInfo[] $data
      */
@@ -56,7 +56,7 @@ class GetTemplatesRes extends Response
     }
     
     /**
-     * Paging:
+     * Paging: 
      *
      * @return GetTemplatesPaging|null
      */
@@ -66,7 +66,7 @@ class GetTemplatesRes extends Response
     }
 
     /**
-     * Paging:
+     * Paging: 
      *
      * @param GetTemplatesPaging $paging
      */
@@ -74,4 +74,11 @@ class GetTemplatesRes extends Response
     {
         $this->set("Paging", $paging->getAll());
     }
+    
 }
+
+
+
+
+
+

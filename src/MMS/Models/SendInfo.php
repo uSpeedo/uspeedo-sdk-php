@@ -44,7 +44,7 @@ class SendInfo extends Response
     }
     
     /**
-     * Target:
+     * Target: 
      *
      * @return TargetPhone[]|null
      */
@@ -62,7 +62,7 @@ class SendInfo extends Response
     }
 
     /**
-     * Target:
+     * Target: 
      *
      * @param TargetPhone[] $target
      */
@@ -94,4 +94,11 @@ class SendInfo extends Response
     {
         $this->set("TemplateId", $templateId);
     }
+    
 }
+
+
+
+
+
+

@@ -33,7 +33,7 @@ class DeleteMMSTemplateReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/mms/api/
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getAccountId()
     {
@@ -51,7 +51,7 @@ class DeleteMMSTemplateReq extends Request
     }
     
     /**
-     * TemplateIds:
+     * TemplateIds: 
      *
      * @return string[]|null
      */
@@ -61,7 +61,7 @@ class DeleteMMSTemplateReq extends Request
     }
 
     /**
-     * TemplateIds:
+     * TemplateIds: 
      *
      * @param string[] $templateIds
      */
@@ -69,4 +69,11 @@ class DeleteMMSTemplateReq extends Request
     {
         $this->set("TemplateIds", $templateIds);
     }
+    
 }
+
+
+
+
+
+

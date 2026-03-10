@@ -24,7 +24,7 @@ class MessageSummary extends Response
 {
 
     /**
-     * BusinessPhone:
+     * BusinessPhone: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class MessageSummary extends Response
     }
 
     /**
-     * BusinessPhone:
+     * BusinessPhone: 
      *
      * @param string $businessPhone
      */
@@ -44,9 +44,9 @@ class MessageSummary extends Response
     }
     
     /**
-     * ConvAmount:
+     * ConvAmount: 
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getConvAmount()
     {
@@ -54,7 +54,7 @@ class MessageSummary extends Response
     }
 
     /**
-     * ConvAmount:
+     * ConvAmount: 
      *
      * @param int $convAmount
      */
@@ -64,9 +64,9 @@ class MessageSummary extends Response
     }
     
     /**
-     * ConvNum:
+     * ConvNum: 
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getConvNum()
     {
@@ -74,7 +74,7 @@ class MessageSummary extends Response
     }
 
     /**
-     * ConvNum:
+     * ConvNum: 
      *
      * @param int $convNum
      */
@@ -84,7 +84,7 @@ class MessageSummary extends Response
     }
     
     /**
-     * Country:
+     * Country: 
      *
      * @return string|null
      */
@@ -94,7 +94,7 @@ class MessageSummary extends Response
     }
 
     /**
-     * Country:
+     * Country: 
      *
      * @param string $country
      */
@@ -102,4 +102,11 @@ class MessageSummary extends Response
     {
         $this->set("Country", $country);
     }
+    
 }
+
+
+
+
+
+

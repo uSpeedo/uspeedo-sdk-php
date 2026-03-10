@@ -34,7 +34,7 @@ class SendBatchUSMSMessageReq extends Request
     /**
      * AccountId: Account ID,Get accountId reference: https://docs.uspeedo.com/docs/sms/api/
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getAccountId()
     {
@@ -52,7 +52,7 @@ class SendBatchUSMSMessageReq extends Request
     }
     
     /**
-     * TaskContent:
+     * TaskContent: 
      *
      * @return SendInfo[]|null
      */
@@ -70,7 +70,7 @@ class SendBatchUSMSMessageReq extends Request
     }
 
     /**
-     * TaskContent:
+     * TaskContent: 
      *
      * @param SendInfo[] $taskContent
      */
@@ -82,4 +82,11 @@ class SendBatchUSMSMessageReq extends Request
         }
         $this->set("TaskContent", $result);
     }
+    
 }
+
+
+
+
+
+

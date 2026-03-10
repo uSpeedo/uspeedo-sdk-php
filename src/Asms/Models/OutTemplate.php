@@ -24,9 +24,9 @@ class OutTemplate extends Response
 {
 
     /**
-     * CreateTime:
+     * CreateTime: 
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getCreateTime()
     {
@@ -34,7 +34,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * CreateTime:
+     * CreateTime: 
      *
      * @param int $createTime
      */
@@ -44,7 +44,7 @@ class OutTemplate extends Response
     }
     
     /**
-     * Template:
+     * Template: 
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * Template:
+     * Template: 
      *
      * @param string $template
      */
@@ -96,7 +96,7 @@ class OutTemplate extends Response
     }
     
     /**
-     * ErrDesc:
+     * ErrDesc: 
      *
      * @return string|null
      */
@@ -106,7 +106,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * ErrDesc:
+     * ErrDesc: 
      *
      * @param string $errDesc
      */
@@ -116,7 +116,7 @@ class OutTemplate extends Response
     }
     
     /**
-     * Instruction:
+     * Instruction: 
      *
      * @return string|null
      */
@@ -126,7 +126,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * Instruction:
+     * Instruction: 
      *
      * @param string $instruction
      */
@@ -136,9 +136,9 @@ class OutTemplate extends Response
     }
     
     /**
-     * Purpose:
+     * Purpose: 
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getPurpose()
     {
@@ -146,7 +146,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * Purpose:
+     * Purpose: 
      *
      * @param int $purpose
      */
@@ -156,7 +156,7 @@ class OutTemplate extends Response
     }
     
     /**
-     * Remark:
+     * Remark: 
      *
      * @return string|null
      */
@@ -166,7 +166,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * Remark:
+     * Remark: 
      *
      * @param string $remark
      */
@@ -176,9 +176,9 @@ class OutTemplate extends Response
     }
     
     /**
-     * Status:
+     * Status: 
      *
-     * @return integer|null
+     * @return int|null
      */
     public function getStatus()
     {
@@ -186,7 +186,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * Status:
+     * Status: 
      *
      * @param int $status
      */
@@ -216,7 +216,7 @@ class OutTemplate extends Response
     }
     
     /**
-     * TemplateId:
+     * TemplateId: 
      *
      * @return string|null
      */
@@ -226,7 +226,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * TemplateId:
+     * TemplateId: 
      *
      * @param string $templateId
      */
@@ -236,7 +236,7 @@ class OutTemplate extends Response
     }
     
     /**
-     * TemplateName:
+     * TemplateName: 
      *
      * @return string|null
      */
@@ -246,7 +246,7 @@ class OutTemplate extends Response
     }
 
     /**
-     * TemplateName:
+     * TemplateName: 
      *
      * @param string $templateName
      */
@@ -254,4 +254,11 @@ class OutTemplate extends Response
     {
         $this->set("TemplateName", $templateName);
     }
+    
 }
+
+
+
+
+
+

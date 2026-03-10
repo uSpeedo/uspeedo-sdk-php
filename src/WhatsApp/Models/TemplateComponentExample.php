@@ -24,7 +24,7 @@ class TemplateComponentExample extends Response
 {
 
     /**
-     * BodyText:
+     * BodyText: 
      *
      * @return string[][]|null
      */
@@ -34,7 +34,7 @@ class TemplateComponentExample extends Response
     }
 
     /**
-     * BodyText:
+     * BodyText: 
      *
      * @param string[][] $bodyText
      */
@@ -44,7 +44,7 @@ class TemplateComponentExample extends Response
     }
     
     /**
-     * HeaderHandle:
+     * HeaderHandle: 
      *
      * @return string[]|null
      */
@@ -54,7 +54,7 @@ class TemplateComponentExample extends Response
     }
 
     /**
-     * HeaderHandle:
+     * HeaderHandle: 
      *
      * @param string[] $headerHandle
      */
@@ -64,7 +64,7 @@ class TemplateComponentExample extends Response
     }
     
     /**
-     * HeaderText:
+     * HeaderText: 
      *
      * @return string[]|null
      */
@@ -74,7 +74,7 @@ class TemplateComponentExample extends Response
     }
 
     /**
-     * HeaderText:
+     * HeaderText: 
      *
      * @param string[] $headerText
      */
@@ -82,4 +82,11 @@ class TemplateComponentExample extends Response
     {
         $this->set("HeaderText", $headerText);
     }
+    
 }
+
+
+
+
+
+

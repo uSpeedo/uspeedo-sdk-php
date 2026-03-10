@@ -24,7 +24,7 @@ class GetTemplatesCursors extends Response
 {
 
     /**
-     * After:
+     * After: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class GetTemplatesCursors extends Response
     }
 
     /**
-     * After:
+     * After: 
      *
      * @param string $after
      */
@@ -44,7 +44,7 @@ class GetTemplatesCursors extends Response
     }
     
     /**
-     * Before:
+     * Before: 
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ class GetTemplatesCursors extends Response
     }
 
     /**
-     * Before:
+     * Before: 
      *
      * @param string $before
      */
@@ -62,4 +62,11 @@ class GetTemplatesCursors extends Response
     {
         $this->set("Before", $before);
     }
+    
 }
+
+
+
+
+
+

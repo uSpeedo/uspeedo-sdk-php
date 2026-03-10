@@ -24,7 +24,7 @@ class UploadMediaRes extends Response
 {
 
     /**
-     * Id:
+     * Id: 
      *
      * @return string|null
      */
@@ -34,7 +34,7 @@ class UploadMediaRes extends Response
     }
 
     /**
-     * Id:
+     * Id: 
      *
      * @param string $id
      */
@@ -42,4 +42,11 @@ class UploadMediaRes extends Response
     {
         $this->set("Id", $id);
     }
+    
 }
+
+
+
+
+
+
