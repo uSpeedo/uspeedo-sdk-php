@@ -123,7 +123,47 @@ class SendEmailTemplateReq extends Request
     {
         $this->set("TemplateId", $templateId);
     }
-    
+
+    /**
+     * Subject: email subject (optional)
+     *
+     * @return string|null
+     */
+    public function getSubject()
+    {
+        return $this->get("Subject");
+    }
+
+    /**
+     * Subject: email subject (optional)
+     *
+     * @param string|null $subject
+     */
+    public function setSubject(?string $subject)
+    {
+        $this->set("Subject", $subject);
+    }
+
+    /**
+     * Abstract: email abstract/summary (optional)
+     *
+     * @return string|null
+     */
+    public function getAbstract()
+    {
+        return $this->get("Abstract");
+    }
+
+    /**
+     * Abstract: email abstract/summary (optional)
+     *
+     * @param string|null $abstract
+     */
+    public function setAbstract(?string $abstract)
+    {
+        $this->set("Abstract", $abstract);
+    }
+
 }
 
 

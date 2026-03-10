@@ -39,6 +39,10 @@ function main()
     // Set email content
     $req->setEmailContent($emailContent);
 
+    // Optional: set email subject and abstract
+    $req->setSubject("Custom email subject");
+    $req->setAbstract("Email abstract content");
+
     $resp = $client->sendEmailTemplate($req);
     $session = $resp->getSessionNo();
     echo "result is " . $session . "\n";
